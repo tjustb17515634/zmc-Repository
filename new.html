@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="usermify" action="#" method="post">
+        <table border="1" bordercolor="#B3B6EE" widt="60%" align="center" height="350" cellpadding="0"
+        cellspacing="0">
+            <caption>用户资料修改页面</caption>
+            <tr>
+                <th width="40%" align="right">真实姓名：</th>
+                <td width="60%">
+                    <input name="realname" type="text" value="徐菲菲"
+                    readonly="readonly" disabled="disabled" required/>
+                </td>
+            </tr>
+            <tr>
+                <th width="40%" align="right">用户名称：</th>
+                <td width="60%">
+                    <input name="usename" type="text" value="ttaaa"
+                    readonly="readonly" disabled="disabled" required/>
+                </td>
+            </tr>
+            <tr>
+                <th width="40%" align="right">密码：</th>
+                <td width="60%">
+                    <input name="pass" type="password" required/>
+                </td>
+            </tr>
+            <tr>
+                <th  align="right">性别：</th>
+                <td>
+                    <input name="gender" type="radio" />男
+                    <input name="gender" type="radio" />女
+                </td>
+            </tr>
+            <tr>
+                <th  align="right">身份证号：</th>
+                <td>
+                    <input name="Id number" type="text" maxlength="18" />
+                </td>
+            </tr>
+            <tr>
+                <th  align="right">联系电话：</th>
+                <td>
+                    <input name="tel" type="text" maxlength="11" />
+                </td>
+            </tr>
+            <tr>
+                <th  align="right">手机：</th>
+                <td>
+                    <input name="phone" type="text" maxlength="11" />
+                </td>
+            </tr>
+            <tr>
+                <th  align="right">兴趣爱好：</th>
+                <td>
+                    <input name="sing" type="checkbox" value="唱歌" />唱歌
+                    <input name="sing" type="checkbox" value="跳舞" />跳舞
+                    <input name="sing" type="checkbox" value="画画" />画画
+                    <input name="sing" type="checkbox" value="爬山" />爬山
+                </td>
+            </tr>
+            <tr>
+                <th  align="right">民族：</th>
+                <td>
+                    <select>
+                        <option>汉族</option>
+                        <option>蒙古族</option>
+                        <option>维吾尔族</option>
+                        <option>其他民族</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="修改" />
+                    <input type="reset" value="重置" />
+
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
